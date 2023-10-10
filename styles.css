@@ -6,9 +6,13 @@
   Styles for the about.html page. 
 */
 
+/* Importing Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 body {
   background-color: rgb(255, 161, 225);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 20px;
 }
@@ -20,6 +24,13 @@ header {
 
 header h1 {
   font-size: 36px;
+  color: purple;
+}
+
+blockquote,
+blockquote p {
+  font-style: italic;
+  color: #fff;
 }
 
 header p {
